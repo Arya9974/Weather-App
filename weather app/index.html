@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/main/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Weather app</title>
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <input id="valeusearch" type="text" autocomplete="off">
+            <button><i class="fas fa-search"></i></button>
+        </form>
+        <section class="result">
+            <figure class="name" id="city">
+                <figcaption>London</figcaption><img id="london" src="assets/images/london.png">
+            </figure>
+            <figure class="temp">
+                <img src="assets/images/rain.png">
+                <figcaption>
+                    <span>31</span>
+                    <sup>°</sup>
+                </figcaption>
+            </figure>
+            <p class="description">
+                Overcast Clouds
+            </p>
+            <ul>
+                <li>
+                    <span>
+                        Clouds
+                        <i class="fa-solid fa-cloud"></i>
+                    </span>
+                    <span id="clouds">98</span>
+
+                </li>
+
+            <li>
+                <span>Humidity</span>
+                <i class="fa-solid fa-droplet"></i>
+                <span id="humidity">55</span>
+            </li>
+            <li>
+                <span id="pressure">Pressure</span>
+                <i class="fa-solid fa-gauge"></i>
+                <span>1001</span>hPa
+            </li>
+            </ul>
+        </section>
+    </main>
+    <script src="assets/main/js/main.js"></script>
+</body>
+
+</html>
